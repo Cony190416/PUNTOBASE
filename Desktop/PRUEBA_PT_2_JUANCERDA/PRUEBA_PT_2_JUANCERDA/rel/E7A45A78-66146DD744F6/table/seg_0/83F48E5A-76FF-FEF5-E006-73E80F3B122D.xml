@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83F48E5A-76FF-FEF5-E006-73E80F3B122D" name="TIPO_BM">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:40:24 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod" id="705C19BB-1C60-0988-D45B-D002CC59140C">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:41:07 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="D49A0F70-552D-E3D4-3E90-6864F2D779E2">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:41:07 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="238C86EB-A5E7-CBA9-5D66-B26EE4DF2C65" name="TIPO_BM_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:41:07 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="705C19BB-1C60-0988-D45B-D002CC59140C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

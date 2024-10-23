@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2EACE74-CE86-CFA9-EAA5-057E14CF672D" name="EMPLEADOR">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>3EF80A47-0CE5-16DB-8A61-8529A6257431</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="9ADA67B4-BC1A-E031-85F3-B4ED268B9F0C">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<comment><![CDATA[Corresponde al rol unico tributario de la entidad.]]></comment>
+<generatorID>73D4CFA1-6F72-3B16-BA73-DFF7548F6709</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dv" id="A39C0741-1A25-B860-CD59-256941B5AB76">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<comment><![CDATA[Digito verificador del empleador]]></comment>
+<generatorID>3AEC2556-8601-1426-EA52-80AB91DC803C</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_empleador" id="DB2C5764-609B-75D2-59C1-43B049795AF3">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<comment><![CDATA[Nombre o razon social del empleador]]></comment>
+<generatorID>8DBA3F58-1B24-E845-1276-8C9CD1976DB6</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_asun" id="EBA3EBDF-E941-969D-42EF-119DB2F564ED">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<comment><![CDATA[Fecha en la que el declarante ausme su cargo]]></comment>
+<generatorID>0A461177-3392-E671-A1F3-1A5CCB306948</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="renta_men" id="43B81024-195B-B3E1-4270-1F6C3A4770C6">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<comment><![CDATA[Renta mensual del declarante.]]></comment>
+<generatorID>A9B47CD2-1E3B-5873-F9D7-B50275A9ED9D</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIRO_TRIB_cod" id="20B04508-24AB-12CE-CBA8-AC0DEE0D5BD9">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:46:22 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32B8B648-25E7-0B54-9AD4-CAA3ADCFA192" referredColumn="9E690C75-4C16-A2FB-F7D8-D16214E570EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D50002AC-CC33-EF07-6DDF-F8731BF2C5A0" name="EMPLEADOR_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>7E066E16-3EF4-E8C7-AE7C-C1DE91ED5A3E</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ADA67B4-BC1A-E031-85F3-B4ED268B9F0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D833BDF-2CD8-CC94-B2EC-DA6AE85B3D3E" name="EMPLEADOR_GIRO_TRIB_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:46:22 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20B04508-24AB-12CE-CBA8-AC0DEE0D5BD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

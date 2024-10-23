@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ECA66784-D834-A48A-857C-9192940BB6AE" name="DECLARANTE">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:05:33 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="run" id="B0EE2FC4-0A7A-A971-673C-A4FA23FEFDBF">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:05:41 UTC</createdTime>
+<comment><![CDATA[run del declarante]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv" id="934BF0A8-ED22-C496-44A5-57A1723DAB27">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:05:56 UTC</createdTime>
+<comment><![CDATA[digito verificador del run del declarante]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="p_nom" id="79597267-CB84-1050-1647-D44603BC1C20">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:06:10 UTC</createdTime>
+<comment><![CDATA[primer nombre del declarante]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="s_nom" id="B95595A4-4C7C-B283-21ED-91EA2E2E7964">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:06:22 UTC</createdTime>
+<comment><![CDATA[segundo nombre del declarante]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ap_pat" id="4AD9522D-5927-34CD-6C00-44E383C2CA76">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:06:36 UTC</createdTime>
+<comment><![CDATA[Apellido paterno del declarante]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ap_mat" id="943169D1-8398-DE87-0249-9A1FCE60B921">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:06:44 UTC</createdTime>
+<comment><![CDATA[Apellido materno del declarante]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prof_ofi" id="45666BD5-5EC9-76F3-EAE7-45296F85D17B">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:06:55 UTC</createdTime>
+<comment><![CDATA[Profesion y oficio del declarante, estos valores se encuentran predefinidos en el formulario]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="est_civil" id="8915815E-763D-E8ED-5574-5202E70EFF69">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:07:32 UTC</createdTime>
+<comment><![CDATA[Estado civil del declarante]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="214CC336-FF40-B72F-7E33-9BFE1FAFEAC3">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:08:08 UTC</createdTime>
+<comment><![CDATA[Genero del declarante, pudiendo ser masculino, femenino o ignorar]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="domicilio" id="5ED5984D-A4E8-CF1F-6DB4-E14925EDD8EB">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:08:53 UTC</createdTime>
+<comment><![CDATA[Domicilio incluye comuna y region]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="27DE6A3B-B849-3A75-E72C-FDA6DB048C3F" name="DECLARANTE PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:05:48 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0EE2FC4-0A7A-A971-673C-A4FA23FEFDBF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

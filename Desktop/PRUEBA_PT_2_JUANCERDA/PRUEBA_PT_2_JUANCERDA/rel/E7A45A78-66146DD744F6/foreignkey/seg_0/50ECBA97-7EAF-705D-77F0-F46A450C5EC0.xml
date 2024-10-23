@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50ECBA97-7EAF-705D-77F0-F46A450C5EC0" containerWithKeyObject="3ADDDB82-F194-3FB4-41FE-7408EDF46770" localFKIndex="AB24F75A-404A-6242-6B8C-EA60EFAA012C" name="B_MUEBLE_TIPO_BM_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:41:30 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<referredTableLongName>TIPO_BM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>83F48E5A-76FF-FEF5-E006-73E80F3B122D</referredTableID>
+<keyObject>238C86EB-A5E7-CBA9-5D66-B26EE4DF2C65</keyObject>
+<referredKeyID>238C86EB-A5E7-CBA9-5D66-B26EE4DF2C65</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

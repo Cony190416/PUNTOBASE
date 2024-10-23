@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="002F50FC-647C-B4A7-2D0E-CB9FAD52B5A4" name="DIP">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:19:42 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_dip" id="C2B464F3-965C-6EEC-5095-E128BBDC3B8A">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:19:47 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_dip" id="ADC7FD22-C868-4AC1-23D7-A27ADBDD859F">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:19:57 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_dip" id="376EBEA5-A5E0-BF10-813F-2BFEC82D9711">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:20:10 UTC</createdTime>
+<comment><![CDATA[Fecha en la cual se realiza la declaración]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lugar_dip" id="0188EF6A-E1FB-DA87-FD47-2CBA4C9BA2D4">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:20:18 UTC</createdTime>
+<comment><![CDATA[Corresponde al lugar geográfico en el cual se realiza la declaración]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run" id="2EE821E6-F7D0-7549-405D-3E8CCDE71238">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:21:25 UTC</createdTime>
+<comment><![CDATA[run del declarante]]></comment>
+<generatorID>1FA621DD-AB83-0AC5-4608-7DB45DA8F774</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<referedAttribute>B0EE2FC4-0A7A-A971-673C-A4FA23FEFDBF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3F04774-B4CB-4600-8F2F-8746AC3EE70A" name="DIP PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:19:56 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2B464F3-965C-6EEC-5095-E128BBDC3B8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

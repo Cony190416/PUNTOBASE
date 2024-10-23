@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3571778-D377-7300-1051-C9847DA39091" name="B_MUEBLE">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:29:48 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matricula" id="26F925F6-A75E-EFAD-4A81-FB011B90F0DD">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:29:57 UTC</createdTime>
+<comment><![CDATA[matricula del bien mueble]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_bm" id="F354D96F-A0B4-E773-A9F0-93286A61EF94">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:30:16 UTC</createdTime>
+<comment><![CDATA[tipo del bien mueble]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio_fab" id="CAB9FC47-AB23-2981-7F4F-F34DEBA923FE">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:31:09 UTC</createdTime>
+<comment><![CDATA[anio de fabricacion del bien mueble]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_inscripcion" id="0C6413D5-D133-EC2F-FA31-495CEE03A10C">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:31:24 UTC</createdTime>
+<comment><![CDATA[numero de inscripcion del bien mueble en el servicio de registro civil e identificacion]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio_insc" id="53D46323-A91D-BA60-C170-5197AE65E128">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:31:39 UTC</createdTime>
+<comment><![CDATA[anio de inscripcion del bien mueble en el servicio de registro civil e identificacion]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="avaluo_fisc" id="3CCE80AA-5FBF-3289-236F-A481B46D2D9B">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:31:57 UTC</createdTime>
+<comment><![CDATA[Avaluo fiscal del bien mueble]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca_bm" id="D79085E1-0825-7489-67BE-9E9654D2C305">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:32:25 UTC</createdTime>
+<comment><![CDATA[Marca del bien mueble]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run" id="E83D9E8B-4FBC-F402-10FC-9EA479EB4F43">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:35:07 UTC</createdTime>
+<comment><![CDATA[run del declarante]]></comment>
+<generatorID>A1D782C4-51B7-832B-0551-89AD5F840035</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<referedAttribute>B0EE2FC4-0A7A-A971-673C-A4FA23FEFDBF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_dip" id="B00B9951-C7D4-5BA4-8BEE-253956666798">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:36:12 UTC</createdTime>
+<generatorID>E6AC9E57-BF51-D54B-B69F-011313868BFC</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<referedAttribute>C2B464F3-965C-6EEC-5095-E128BBDC3B8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1AAC4EF4-1701-28E1-5E60-BD078443D258" name="B_MUEBLE PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:30:15 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26F925F6-A75E-EFAD-4A81-FB011B90F0DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

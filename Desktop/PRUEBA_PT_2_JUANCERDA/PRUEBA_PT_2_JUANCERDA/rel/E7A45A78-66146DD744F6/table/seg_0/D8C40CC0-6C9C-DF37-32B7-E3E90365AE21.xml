@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8C40CC0-6C9C-DF37-32B7-E3E90365AE21" name="Relation_5">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="B_INMUEBLE_rol_avaluo" id="E9FBABF3-9103-A3A2-406F-88E5E302BA83">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15D4D572-D59D-93D1-4162-C7BF60F55261" referredColumn="6A48BB5D-773B-515B-E2FE-6822F5C89408"/>
+</associations>
+</Column>
+<Column name="CBR_cod_cbr" id="07264FE5-D403-328D-CE19-7821224553EA">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="184A8412-2F1D-08A6-75C3-7411661A4C09" referredColumn="DED48A8C-5BDE-58E6-8357-A57D1D054777"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD7FD315-1792-70B6-6B45-97A31D1E1813" name="Relation_5_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9FBABF3-9103-A3A2-406F-88E5E302BA83"/>
+<colUsage columnID="07264FE5-D403-328D-CE19-7821224553EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4127899C-AD5E-139E-CAC0-C043DA976784" name="Relation_5_B_INMUEBLE_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>A3371FAE-37FA-CBC9-CC81-D861F8178F42</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9FBABF3-9103-A3A2-406F-88E5E302BA83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="911668E2-FF3B-4BA1-0D31-99E4EDE10D59" name="Relation_5_CBR_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>A3371FAE-37FA-CBC9-CC81-D861F8178F42</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07264FE5-D403-328D-CE19-7821224553EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

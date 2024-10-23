@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCACCD34-A1C4-D383-2C83-91573B3F2E32" name="CBR">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:33:43 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_cbr" id="03979659-A7C1-6F1C-0F4D-BA4C2C631C63">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:33:47 UTC</createdTime>
+<comment><![CDATA[Codigo del conservador de bienes raices]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_cbr" id="7A8CB0F0-A75E-B524-2427-A715BEC206A5">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:33:57 UTC</createdTime>
+<comment><![CDATA[Nombre del conservador de bienes raices]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="687E88F3-B5FA-EB2F-41CD-E433FF8E8EB5" name="CBR PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:33:56 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03979659-A7C1-6F1C-0F4D-BA4C2C631C63</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

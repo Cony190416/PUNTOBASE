@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="414DAFAF-52E7-58A8-01C0-4F9D4F6D44C9" name="GIRO_TRIB">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:45:33 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod" id="9E690C75-4C16-A2FB-F7D8-D16214E570EF">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:46:16 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="FC0B2E8B-A806-1C1A-77DB-81DA4377B7A8">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:46:16 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CB967D7-ACE6-F1E5-92A9-ADC7737DF5B6" name="GIRO_TRIB_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:46:16 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E690C75-4C16-A2FB-F7D8-D16214E570EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

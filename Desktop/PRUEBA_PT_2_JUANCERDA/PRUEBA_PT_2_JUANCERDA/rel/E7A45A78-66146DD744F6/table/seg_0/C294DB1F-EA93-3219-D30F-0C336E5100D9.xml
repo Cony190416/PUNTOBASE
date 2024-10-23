@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C294DB1F-EA93-3219-D30F-0C336E5100D9" name="Relation_1">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLEADOR_rut" id="F1AD55D0-4FCF-740E-E337-3B901C6D6563">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58C40D66-6A46-180E-09FC-DB0FE259B874" referredColumn="9ADA67B4-BC1A-E031-85F3-B4ED268B9F0C"/>
+</associations>
+</Column>
+<Column name="DECLARANTE_run" id="95D5E3EF-9859-343A-5666-5E5D8B14B9B3">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76C4DA12-01FA-87FB-C9C0-E971EAED69DA" referredColumn="67AC4790-C357-E1F2-459B-A7214B4A3F71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="746C1E09-6B1B-0391-7546-F8B4AFB5AAD7" name="Relation_1_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1AD55D0-4FCF-740E-E337-3B901C6D6563"/>
+<colUsage columnID="95D5E3EF-9859-343A-5666-5E5D8B14B9B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72D42D9B-4DE0-1A8D-A8FD-0FF940C0DF21" name="Relation_1_EMPLEADOR_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>6751DCFD-CF03-9C32-84FC-B9876578F510</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1AD55D0-4FCF-740E-E337-3B901C6D6563"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E7D28E9-A5C9-901C-4935-02CF554F5EBF" name="Relation_1_DECLARANTE_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>6751DCFD-CF03-9C32-84FC-B9876578F510</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95D5E3EF-9859-343A-5666-5E5D8B14B9B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BBA87C58-8900-C4AC-3328-CE8CD67B9F9A" containerWithKeyObject="EA2DF4B5-5113-8D9E-A49F-88E09AA0C94C" localFKIndex="6BBC30AC-0D14-C947-0093-A3596E127416" name="OTROS_ANT_DECLARANTE_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>F5B06835-07DA-426F-DCFE-36F68251192D</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<referredTableLongName>DECLARANTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5E7B1145-4B49-A847-93A2-364C7B2273C3</referredTableID>
+<keyObject>0B96E562-0442-E211-CC0E-6C8A9CCE6203</keyObject>
+<referredKeyID>0B96E562-0442-E211-CC0E-6C8A9CCE6203</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>run</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

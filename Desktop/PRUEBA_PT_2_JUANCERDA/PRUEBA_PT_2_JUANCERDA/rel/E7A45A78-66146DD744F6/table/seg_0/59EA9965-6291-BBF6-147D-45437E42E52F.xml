@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59EA9965-6291-BBF6-147D-45437E42E52F" name="PASIVO">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>8673CCA6-9FAB-828B-CA84-0A592A4EDF09</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_pasivo" id="4AA96AB4-3B32-91BA-07E8-C9E8DE049411">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<comment><![CDATA[Numero correlativo para indicar cantidad de pasivos.]]></comment>
+<generatorID>6AB5C131-BA91-CAE8-1B99-3038F515D49B</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_pasivo" id="B2914E50-0651-AD2F-766A-EF39CB3BD8C6">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<comment><![CDATA[Monto del pasivo en pesos chilenos]]></comment>
+<generatorID>31CCE638-3E15-07F7-80F2-5D86EB17C0CD</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_entidad" id="3DB1DBF6-0799-59EF-751F-8B819C9FF89B">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<comment><![CDATA[Nombre de la entidad que otorgó el referido credito]]></comment>
+<generatorID>DA36ED78-BB0A-6ACA-A40D-82EA43CB1A3E</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DECLARANTE_run" id="38363FF6-5179-86A1-9935-2A4AF8375D73">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<comment><![CDATA[run del declarante]]></comment>
+<generatorID>E8A8EAC9-AF6B-87A8-6B94-DA0D56390663</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B66F4CF7-B668-119B-4730-043E0E3DFC21" referredColumn="67AC4790-C357-E1F2-459B-A7214B4A3F71"/>
+</associations>
+</Column>
+<Column name="DIP_cod_dip" id="E5EB3453-6949-FC90-BEDA-A71DF9890AB6">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>49D569FB-BF0C-5E77-CA7A-C40BC413E705</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CEF977C-C936-4361-5BFA-EA68403A7984" referredColumn="C3609985-72CF-B3F1-7CA8-D9188FFF5F1D"/>
+</associations>
+</Column>
+<Column name="TIPO_MONT_cod" id="CD41A414-A870-77CB-0EC2-0BC245D2CEE2">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:50:02 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="870DF47B-FB3E-319E-871A-3A327D940D2D" referredColumn="5EE7C75A-3E09-3DD4-9E11-2256B29AEE88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CC427B3-8C83-9616-894F-0D5E99F808BA" name="PASIVO_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>1507814D-E746-9950-8029-E8FE7E27F8F2</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AA96AB4-3B32-91BA-07E8-C9E8DE049411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34918149-22A4-C990-BEE0-9871DF58BC8C" name="PASIVO_DECLARANTE_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>96FEBA31-E24C-D919-BFB4-B86C6A5F367C</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38363FF6-5179-86A1-9935-2A4AF8375D73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C18DF943-0C3C-DEC3-79B0-E8B2E105B188" name="PASIVO_DIP_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>054DEFA9-9359-6927-1B4F-F514777D6100</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5EB3453-6949-FC90-BEDA-A71DF9890AB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B0F2CE2-7E9F-970A-C717-511AED9AD663" name="PASIVO_TIPO_MONT_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:50:02 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD41A414-A870-77CB-0EC2-0BC245D2CEE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA2DF4B5-5113-8D9E-A49F-88E09AA0C94C" name="OTROS_ANT">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>EF047844-515E-E64B-61B9-7E64C556311F</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_oant" id="FCC010E2-6FCA-047F-D691-BF18F6D01D4C">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>AFDA217C-1B94-3765-8B1E-F042E343C4FD</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_oant" id="13E61EB8-F34B-5BD8-CD13-20EA629B3BE0">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>7D055F05-BFD6-A29C-7486-21133F3B62D0</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIP_cod_dip" id="B071F70B-C18A-7BC4-179B-BC2B1A4F0E12">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>E624A43D-E6F9-1BAA-B636-54BCE4F2EA3B</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4A38A5F-E098-815C-29D9-A1C5D9B26D5C" referredColumn="C3609985-72CF-B3F1-7CA8-D9188FFF5F1D"/>
+</associations>
+</Column>
+<Column name="DECLARANTE_run" id="4975C6B5-33C2-BC5E-D3A8-17B36D854CB2">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<comment><![CDATA[run del declarante]]></comment>
+<generatorID>876CBDE7-EF2C-25F7-E149-A80475C91535</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBA87C58-8900-C4AC-3328-CE8CD67B9F9A" referredColumn="67AC4790-C357-E1F2-459B-A7214B4A3F71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12541522-1895-4F47-1664-2CCA1E5E7B36" name="OTROS_ANT_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>17C7C680-B930-BD2E-8EBF-EA8EB44B7529</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCC010E2-6FCA-047F-D691-BF18F6D01D4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34F4A428-FA8D-38A6-1558-F72713A957CF" name="OTROS_ANT_DIP_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>34007DED-FAAC-D535-6B7A-B2F88C0EA25A</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B071F70B-C18A-7BC4-179B-BC2B1A4F0E12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BBC30AC-0D14-C947-0093-A3596E127416" name="OTROS_ANT_DECLARANTE_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>F5B06835-07DA-426F-DCFE-36F68251192D</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4975C6B5-33C2-BC5E-D3A8-17B36D854CB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

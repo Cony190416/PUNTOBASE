@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="184A8412-2F1D-08A6-75C3-7411661A4C09" containerWithKeyObject="D8C40CC0-6C9C-DF37-32B7-E3E90365AE21" localFKIndex="911668E2-FF3B-4BA1-0D31-99E4EDE10D59" name="Relation_5_CBR_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>A3371FAE-37FA-CBC9-CC81-D861F8178F42</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<referredTableLongName>CBR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5F612F73-5B45-0E93-5FEF-454C9D366246</referredTableID>
+<keyObject>B1085229-1C82-0CAB-4BAC-5796FCF323C3</keyObject>
+<referredKeyID>B1085229-1C82-0CAB-4BAC-5796FCF323C3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_cbr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

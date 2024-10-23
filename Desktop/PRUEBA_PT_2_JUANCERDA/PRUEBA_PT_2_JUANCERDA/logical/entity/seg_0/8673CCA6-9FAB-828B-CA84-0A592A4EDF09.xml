@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8673CCA6-9FAB-828B-CA84-0A592A4EDF09" name="PASIVO">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:25:22 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_pasivo" id="6AB5C131-BA91-CAE8-1B99-3038F515D49B">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:25:28 UTC</createdTime>
+<comment><![CDATA[Numero correlativo para indicar cantidad de pasivos.]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_pasivo" id="2ED1A9EC-4212-A9FF-5BD7-F1C5953C03CD">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:25:39 UTC</createdTime>
+<comment><![CDATA[Credito hipotecario o credito de consumo]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_pasivo" id="31CCE638-3E15-07F7-80F2-5D86EB17C0CD">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:25:50 UTC</createdTime>
+<comment><![CDATA[Monto del pasivo en pesos chilenos]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_entidad" id="DA36ED78-BB0A-6ACA-A40D-82EA43CB1A3E">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:26:03 UTC</createdTime>
+<comment><![CDATA[Nombre de la entidad que otorgó el referido credito]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run" id="E8A8EAC9-AF6B-87A8-6B94-DA0D56390663">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:34:47 UTC</createdTime>
+<comment><![CDATA[run del declarante]]></comment>
+<generatorID>96FEBA31-E24C-D919-BFB4-B86C6A5F367C</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<referedAttribute>B0EE2FC4-0A7A-A971-673C-A4FA23FEFDBF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_dip" id="49D569FB-BF0C-5E77-CA7A-C40BC413E705">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:35:33 UTC</createdTime>
+<generatorID>054DEFA9-9359-6927-1B4F-F514777D6100</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<referedAttribute>C2B464F3-965C-6EEC-5095-E128BBDC3B8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1507814D-E746-9950-8029-E8FE7E27F8F2" name="PASIVO PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:25:37 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6AB5C131-BA91-CAE8-1B99-3038F515D49B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

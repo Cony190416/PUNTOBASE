@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB412BDF-19A9-A990-6D16-4AA826336BB7" containerWithKeyObject="3ADDDB82-F194-3FB4-41FE-7408EDF46770" localFKIndex="F082DB86-44C4-763D-A0E7-DB36E5F265CC" name="B_MUEBLE_DIP_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>E6AC9E57-BF51-D54B-B69F-011313868BFC</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<referredTableLongName>DIP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B33D7C30-B3AF-BB14-C7FA-1AE939DAA186</referredTableID>
+<keyObject>9AE1277F-C1B7-A67F-E36C-EFF988F625D2</keyObject>
+<referredKeyID>9AE1277F-C1B7-A67F-E36C-EFF988F625D2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_dip</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

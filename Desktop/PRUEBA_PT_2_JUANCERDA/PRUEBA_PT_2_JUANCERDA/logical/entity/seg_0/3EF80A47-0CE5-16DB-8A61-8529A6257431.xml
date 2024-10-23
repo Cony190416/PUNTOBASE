@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EF80A47-0CE5-16DB-8A61-8529A6257431" name="EMPLEADOR">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:01:38 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="73D4CFA1-6F72-3B16-BA73-DFF7548F6709">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:01:49 UTC</createdTime>
+<comment><![CDATA[Corresponde al rol unico tributario de la entidad.]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv" id="3AEC2556-8601-1426-EA52-80AB91DC803C">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:02:11 UTC</createdTime>
+<comment><![CDATA[Digito verificador del empleador]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_empleador" id="8DBA3F58-1B24-E845-1276-8C9CD1976DB6">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:02:28 UTC</createdTime>
+<comment><![CDATA[Nombre o razon social del empleador]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="giro_trib" id="EEE5848B-EBC0-B26D-9646-F6142EAC5802">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:02:47 UTC</createdTime>
+<comment><![CDATA[Corresponde al giro tributario al cual se dedica el empleador, esto se encuentra establecido en el servicio de impuestos internos (SII)]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fec_asun" id="0A461177-3392-E671-A1F3-1A5CCB306948">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:03:43 UTC</createdTime>
+<comment><![CDATA[Fecha en la que el declarante ausme su cargo]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="renta_men" id="A9B47CD2-1E3B-5873-F9D7-B50275A9ED9D">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:04:02 UTC</createdTime>
+<comment><![CDATA[Renta mensual del declarante.]]></comment>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E066E16-3EF4-E8C7-AE7C-C1DE91ED5A3E" name="EMPLEADOR PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2024-10-22 16:01:58 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<engineerTo>
+<item key="E7A45A78-98C9-4AA5-6E12-66146DD744F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>73D4CFA1-6F72-3B16-BA73-DFF7548F6709</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

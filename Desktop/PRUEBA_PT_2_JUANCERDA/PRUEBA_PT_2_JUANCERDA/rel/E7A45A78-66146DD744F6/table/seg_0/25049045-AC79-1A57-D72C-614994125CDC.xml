@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25049045-AC79-1A57-D72C-614994125CDC" name="COMUNA">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:33:23 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_com" id="2DD7A277-16D6-283B-9C54-FA3D920DB1B7">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:33:41 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_com" id="EF455C07-1D71-F167-1186-14C12D60442B">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:34:13 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_cod_reg" id="3E3B490A-754B-9CD9-8BD6-F43EB2FEA2AB">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:35:40 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCIA_cod" id="A8997DBA-801E-054E-B2F3-E57BA911D37B">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:58:47 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACFBBDEC-4099-E7A3-D293-F011B8B1911C" referredColumn="C8F12BDA-A44C-EFAD-15E4-5E291FE1D624"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B11192D5-0CE2-0D5D-BA1E-2C0EA6D10B16" name="COMUNA_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:34:13 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DD7A277-16D6-283B-9C54-FA3D920DB1B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="108B60E7-B2E2-3D4A-DD98-AE66F3659A25" name="COMUNA_PROVINCIA_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:58:47 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8997DBA-801E-054E-B2F3-E57BA911D37B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

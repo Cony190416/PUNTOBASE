@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="803BAECD-AA86-E4C2-376B-E20CD9D0758E" containerWithKeyObject="ABD8C1B7-89E1-EF08-5787-B935FB33BB45" localFKIndex="66FC8CE8-976E-B651-A8CC-87329B561B4A" name="B_INMUEBLE_DECLARANTE_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>89EC692B-F923-2292-0A52-964F92ECE571</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<referredTableLongName>DECLARANTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5E7B1145-4B49-A847-93A2-364C7B2273C3</referredTableID>
+<keyObject>0B96E562-0442-E211-CC0E-6C8A9CCE6203</keyObject>
+<referredKeyID>0B96E562-0442-E211-CC0E-6C8A9CCE6203</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>run</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B33D7C30-B3AF-BB14-C7FA-1AE939DAA186" name="DIP">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>002F50FC-647C-B4A7-2D0E-CB9FAD52B5A4</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_dip" id="C3609985-72CF-B3F1-7CA8-D9188FFF5F1D">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>C2B464F3-965C-6EEC-5095-E128BBDC3B8A</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_dip" id="C175226A-95A5-AB0C-B02D-2900D3AE66DD">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<comment><![CDATA[Fecha en la cual se realiza la declaración]]></comment>
+<generatorID>376EBEA5-A5E0-BF10-813F-2BFEC82D9711</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lugar_dip" id="BC80DAEE-08C6-AF82-BC99-D60E68B73119">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<comment><![CDATA[Corresponde al lugar geográfico en el cual se realiza la declaración]]></comment>
+<generatorID>0188EF6A-E1FB-DA87-FD47-2CBA4C9BA2D4</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DECLARANTE_run" id="7785FAB7-A42E-EED1-1B7A-5AF27B71249E">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<comment><![CDATA[run del declarante]]></comment>
+<generatorID>2EE821E6-F7D0-7549-405D-3E8CCDE71238</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D902A60-F350-6F58-6A53-66E1E588BB97" referredColumn="67AC4790-C357-E1F2-459B-A7214B4A3F71"/>
+</associations>
+</Column>
+<Column name="COMUNA_cod_com" id="044FB648-D48F-62DF-33D9-EE8E7C0F6B54">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:47:39 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC6950DD-770E-3B03-FEBB-288B43281BD9" referredColumn="2DD7A277-16D6-283B-9C54-FA3D920DB1B7"/>
+</associations>
+</Column>
+<Column name="TIPO_DIP_cod" id="A494AC2C-36FE-4940-28C0-AAE4304D0223">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:56:10 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAF5AF93-7970-A38A-2443-A90DCD879C59" referredColumn="CE320133-BDF9-99AE-3474-0E6392B9D31B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AE1277F-C1B7-A67F-E36C-EFF988F625D2" name="DIP_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>B3F04774-B4CB-4600-8F2F-8746AC3EE70A</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3609985-72CF-B3F1-7CA8-D9188FFF5F1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9648160-26F9-5CC0-F9FE-D9C631155361" name="DIP_DECLARANTE_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:18:35 UTC</createdTime>
+<generatorID>1FA621DD-AB83-0AC5-4608-7DB45DA8F774</generatorID>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7785FAB7-A42E-EED1-1B7A-5AF27B71249E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9838520F-2D19-6319-B914-45E3F71E9A2C" name="DIP_COMUNA_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:47:39 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="044FB648-D48F-62DF-33D9-EE8E7C0F6B54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8023E21-8CE5-D793-487C-D6E43E768CF1" name="DIP_TIPO_DIP_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-23 22:56:10 UTC</createdTime>
+<ownerDesignName>PRUEBA_PT_2_JUANCERDA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A494AC2C-36FE-4940-28C0-AAE4304D0223"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
