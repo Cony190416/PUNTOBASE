@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B75922BB-6915-9133-E1C0-B09B29F9665E" name="Contrato_piloto">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>8517D6D1-67BB-2129-0568-DC54C78898EC</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="962A70F3-9721-99CD-FAF6-BF2D71064D73">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>954FAA4C-76F9-4112-581C-79CCD2F5B5F1</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,9,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fehca_de_contrato" id="E40EE5AF-55DF-B826-F086-CFEBF94AF6D5">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>4557D79A-1A50-FB1C-C37A-171E8205DFB2</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_piloto" id="F35EB8B8-DE48-5890-2211-EBDC650EE85B">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>C85FC009-FC70-7D01-0836-B958530142E0</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fehca_nacimiento" id="75827734-F91D-6D61-174C-F6B75CEB65EC">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>D7258484-10ED-403A-0C2B-7384AA709151</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Domicilio" id="8173F054-8BA1-3967-451E-C311783DC8C6">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>45577F05-CDE2-CB9B-1D83-9B644EE76DB1</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="C3D3732B-C5A7-C29E-079D-ADB557D342AF">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>9FE8F1A8-B9A2-FA31-36A1-3852F8A00204</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,9,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B3DE5057-669A-8528-31EF-81BC3A889D98" name="Contrato_piloto_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>BABAD458-8213-A7BC-9353-B677EA4E7324</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="962A70F3-9721-99CD-FAF6-BF2D71064D73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

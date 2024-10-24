@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3A32DFA-5606-B8BC-7157-D09094E2ABA8" name="Linea_aeria">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>16D424A4-1719-CCB2-5120-3F938E8770D3</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nombre_aerolinea" id="5D56BFB6-6B6A-2D2E-B956-F48FCF01A66B">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>BAA0F7A9-C62A-DB8E-5A7C-D02338D7274E</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vuelos_realizados" id="FC3583FF-2F39-36A5-224A-5B37657F8BAD">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>79CDF6E2-969B-2EF7-7B45-3840B88F85EE</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contrato_piloto_rut" id="AD741DBE-D75B-A174-1E6D-176383701BB6">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>D9369462-2736-0CF5-E18C-5A80C20A29D9</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="419FB243-71BD-3BFF-EA6F-68CF09B0EB77" referredColumn="962A70F3-9721-99CD-FAF6-BF2D71064D73"/>
+</associations>
+</Column>
+<Column name="aviones_n°_avion" id="93523213-D2EB-82F5-0709-6AD9229913AF">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>276E0674-DB26-6945-AD0E-87C51D61B456</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF228059-E367-6B59-04F4-30BD8674D01C" referredColumn="F3054E1E-E060-A709-8657-E9D61417313E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="089A63A4-1EF5-EA3E-E5FE-89ED2217B2B1" name="Linea_aeria_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>F204F749-C4EF-8BBD-93F1-93F73773DE1F</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D56BFB6-6B6A-2D2E-B956-F48FCF01A66B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4BA56CF-17E1-C9AB-0FB4-50855C1BC0EB" name="Linea_aeria_aviones_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>95439CA3-601F-1ED2-4D3E-D5A248CDB43E</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93523213-D2EB-82F5-0709-6AD9229913AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B875A114-A5C3-6D6A-8077-EDA28E6B83D3" name="Linea_aeria_Contrato_piloto_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>140EF3B8-9EE1-EF99-1C8C-39CEB9E56863</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD741DBE-D75B-A174-1E6D-176383701BB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

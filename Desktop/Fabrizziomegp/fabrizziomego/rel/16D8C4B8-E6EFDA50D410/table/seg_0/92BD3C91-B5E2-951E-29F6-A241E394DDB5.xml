@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92BD3C91-B5E2-951E-29F6-A241E394DDB5" name="Vuelos">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>AFE3F90B-B163-37F9-A4EC-519C8A9BBA69</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="N°_de_vuelo" id="B31BCB4E-9CCF-7E08-0626-1115E692D64B">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>947457E3-EC5C-472B-C8F5-2BB3147B922B</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fehca_salida" id="654784DB-1896-49E3-01B2-9E6F10BDAEA9">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>5B2779DD-E617-4D5B-245C-F2666CDB50FD</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_salida" id="D4E96D81-6C46-1E88-CAE2-CB75EA8B63C0">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>505D1308-1EBC-F0A8-E00D-DDA7BFA2CACF</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fehca_llegada" id="69F7C41C-C5A4-F7B6-2A9D-5D644A9D67EC">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>3F94BE46-659D-DDC5-1ABF-A9620A494C55</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_llegada" id="766FE009-3E87-874C-8160-4EDC1E18400B">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>AEADE803-98D9-3D87-6CF5-221C40CB128B</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="N°_avion" id="905C0744-3558-204A-C515-83B693E6FE2D">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>BA2957FA-4EE0-5F64-957F-41F35219CE05</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tramos_N°_tramo" id="D7649FD1-4F20-2DE1-BA7A-7D90C13EA010">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>98E2DD9A-9150-4AB2-3E0E-DAE5CECF4249</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40C978E6-CD07-C1AA-9439-A1783F85C3E5" referredColumn="BA415587-E34B-C38E-866A-0BAF64581F0D"/>
+</associations>
+</Column>
+<Column name="aviones_n°_avion" id="FB0FEB2E-2B69-B47B-5D55-9409CDFB72FE">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>E5C446E5-A0D0-6795-652C-AEEBBC7CA5FA</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DD69C5D-1101-6E3F-9CE3-E76DCD2C6F2A" referredColumn="F3054E1E-E060-A709-8657-E9D61417313E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96609F6E-7BDD-92F3-D60C-4C947E7F5442" name="Vuelos_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>84B15E9A-43AC-3FB4-7A86-FEDA510D0E11</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B31BCB4E-9CCF-7E08-0626-1115E692D64B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="415AE110-8020-4466-21AC-9436C8D15D6C" name="Vuelos_aviones_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>2798588D-F0F6-685C-A0B8-283ECEEE1927</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB0FEB2E-2B69-B47B-5D55-9409CDFB72FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD638AE0-15F0-C3B4-5769-948DB4BB7A7F" name="Vuelos_Tramos_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>9406D6F1-2D61-33C2-E182-87E1EC838C5A</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7649FD1-4F20-2DE1-BA7A-7D90C13EA010"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

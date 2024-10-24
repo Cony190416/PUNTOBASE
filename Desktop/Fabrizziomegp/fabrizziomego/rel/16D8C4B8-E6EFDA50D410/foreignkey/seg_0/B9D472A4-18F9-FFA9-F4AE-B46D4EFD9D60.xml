@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B9D472A4-18F9-FFA9-F4AE-B46D4EFD9D60" containerWithKeyObject="65AF7877-EA19-3296-E8A7-281E0DC89D21" localFKIndex="ECE45AA9-3B77-FA8B-2624-A87325EC2D99" name="Relation_18_Aeropuerto_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>1A87B347-D29A-61F0-36DB-4597031AADB5</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<referredTableLongName>Aeropuerto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BD5E22A2-10A7-9EDE-5D32-BFFC24927042</referredTableID>
+<keyObject>8544872C-5916-91FD-7A68-AC70A8A80B53</keyObject>
+<referredKeyID>8544872C-5916-91FD-7A68-AC70A8A80B53</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Sigla</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

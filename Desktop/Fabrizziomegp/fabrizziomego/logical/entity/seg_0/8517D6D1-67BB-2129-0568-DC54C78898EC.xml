@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8517D6D1-67BB-2129-0568-DC54C78898EC" name="Contrato_piloto">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:29:58 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="954FAA4C-76F9-4112-581C-79CCD2F5B5F1">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:30:50 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,9,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fehca_de_contrato" id="4557D79A-1A50-FB1C-C37A-171E8205DFB2">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:31:26 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_piloto" id="C85FC009-FC70-7D01-0836-B958530142E0">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:32:32 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fehca_nacimiento" id="D7258484-10ED-403A-0C2B-7384AA709151">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:33:03 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Domicilio" id="45577F05-CDE2-CB9B-1D83-9B644EE76DB1">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:33:43 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="9FE8F1A8-B9A2-FA31-36A1-3852F8A00204">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:35:59 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,9,1</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BABAD458-8213-A7BC-9353-B677EA4E7324" name="Contrato_piloto PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:32:23 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>954FAA4C-76F9-4112-581C-79CCD2F5B5F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

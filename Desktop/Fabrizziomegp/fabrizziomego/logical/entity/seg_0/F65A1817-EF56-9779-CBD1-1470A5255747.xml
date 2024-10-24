@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F65A1817-EF56-9779-CBD1-1470A5255747" name="aviones">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:10:46 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="n°_avion" id="CCA8F57E-3FD6-5FD2-774E-F0ADD86F28EE">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:10:53 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Marca_avion" id="B4782038-704B-1AFC-EB88-CA1160FF396F">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:11:20 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="B185FA46-A643-560C-0735-6A7610AA43BF">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:11:49 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Asientos_disponibles" id="E10AF88F-A05B-D6CF-B85D-E382C098232A">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:12:07 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Aerolinea" id="158CE422-AFAF-F0E0-52CE-12C716DC7091">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:12:54 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D03C5F35-3C21-E871-9592-9F06A86BE2E6" name="aviones PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:11:16 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CCA8F57E-3FD6-5FD2-774E-F0ADD86F28EE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

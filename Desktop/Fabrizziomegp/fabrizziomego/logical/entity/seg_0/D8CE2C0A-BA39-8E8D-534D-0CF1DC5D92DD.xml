@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8CE2C0A-BA39-8E8D-534D-0CF1DC5D92DD" name="Contrato_planta">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:36:47 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codigo AFP" id="49419C9F-70BD-22EF-C1D8-34F0077771F6">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:37:08 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Valor_Bono" id="AEF92F9F-7F0C-EB1A-473D-2F53C7B8422A">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:37:36 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,5,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="6ABB1FA6-0DF2-918F-8BD9-17BD76D67E1A">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:30:14 UTC</createdTime>
+<generatorID>847C392D-90E9-2CF2-C8E4-F285B1889443</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>954FAA4C-76F9-4112-581C-79CCD2F5B5F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

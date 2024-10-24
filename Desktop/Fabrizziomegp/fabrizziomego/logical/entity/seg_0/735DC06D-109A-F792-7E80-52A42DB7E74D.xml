@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="735DC06D-109A-F792-7E80-52A42DB7E74D" name="Tramos">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:21:50 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Km_recorridos" id="9D7F3F7A-131D-A333-8191-C9F61FDE9C98">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:22:15 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,5,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Duracion_en_horas" id="C6A2E334-609B-380B-1D69-DC0C92B3CB21">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:22:59 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Areopuerto_origen" id="12B1303A-0317-64F8-F46A-F67C074593C5">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:24:26 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_salida" id="DAE985ED-0F3A-22DB-B42A-42B66B6259F2">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:24:58 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N°_tramo" id="ACB9A47A-38D1-6FB5-2D30-A26D992BACAE">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:26:33 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_llegada" id="F2070F93-BC56-A82B-E59D-D0C2A196D23D">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:14:58 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88BCC2E5-AF83-5856-3231-1A752665C293" name="Tramos PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:22:50 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ACB9A47A-38D1-6FB5-2D30-A26D992BACAE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

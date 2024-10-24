@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="40C978E6-CD07-C1AA-9439-A1783F85C3E5" containerWithKeyObject="92BD3C91-B5E2-951E-29F6-A241E394DDB5" localFKIndex="BD638AE0-15F0-C3B4-5769-948DB4BB7A7F" name="Vuelos_Tramos_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>9406D6F1-2D61-33C2-E182-87E1EC838C5A</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<referredTableLongName>Tramos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CE0FE345-6A6A-14ED-972F-996CCC75B8E5</referredTableID>
+<keyObject>B97E2F50-D392-F708-CD00-7644FBF4659A</keyObject>
+<referredKeyID>B97E2F50-D392-F708-CD00-7644FBF4659A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>N°_tramo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

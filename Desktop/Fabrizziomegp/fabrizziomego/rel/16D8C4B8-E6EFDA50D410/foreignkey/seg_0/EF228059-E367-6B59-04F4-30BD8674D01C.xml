@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF228059-E367-6B59-04F4-30BD8674D01C" containerWithKeyObject="A3A32DFA-5606-B8BC-7157-D09094E2ABA8" localFKIndex="E4BA56CF-17E1-C9AB-0FB4-50855C1BC0EB" name="Linea_aeria_aviones_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>95439CA3-601F-1ED2-4D3E-D5A248CDB43E</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<referredTableLongName>aviones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B3C8FF96-E63E-F226-FB46-56F68165971C</referredTableID>
+<keyObject>6ECCEAE5-FC26-21E4-6671-D19B0BB4E3F4</keyObject>
+<referredKeyID>6ECCEAE5-FC26-21E4-6671-D19B0BB4E3F4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>n°_avion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

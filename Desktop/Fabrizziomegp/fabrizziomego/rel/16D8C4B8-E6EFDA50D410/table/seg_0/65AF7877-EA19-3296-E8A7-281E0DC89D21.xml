@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65AF7877-EA19-3296-E8A7-281E0DC89D21" name="Relation_18">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tramos_N°_tramo" id="9CBD4C39-F6EA-0AA7-13E0-B8D55BA7930E">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72DD95EA-15EE-95A9-D2B8-BC50F0A3DD7B" referredColumn="BA415587-E34B-C38E-866A-0BAF64581F0D"/>
+</associations>
+</Column>
+<Column name="Aeropuerto_Sigla" id="EBD3BA4E-C74C-1C3C-24E6-6F01DB8F1D7E">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9D472A4-18F9-FFA9-F4AE-B46D4EFD9D60" referredColumn="28BFC83E-FF96-B483-B9FB-3E8CF7AC4C9C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C36C754-526C-9926-2BD1-37D636EF1C18" name="Relation_18_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CBD4C39-F6EA-0AA7-13E0-B8D55BA7930E"/>
+<colUsage columnID="EBD3BA4E-C74C-1C3C-24E6-6F01DB8F1D7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32A22CE1-03B5-0FF3-2EE2-3283005867F7" name="Relation_18_Tramos_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>1A87B347-D29A-61F0-36DB-4597031AADB5</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CBD4C39-F6EA-0AA7-13E0-B8D55BA7930E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECE45AA9-3B77-FA8B-2624-A87325EC2D99" name="Relation_18_Aeropuerto_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>1A87B347-D29A-61F0-36DB-4597031AADB5</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBD3BA4E-C74C-1C3C-24E6-6F01DB8F1D7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

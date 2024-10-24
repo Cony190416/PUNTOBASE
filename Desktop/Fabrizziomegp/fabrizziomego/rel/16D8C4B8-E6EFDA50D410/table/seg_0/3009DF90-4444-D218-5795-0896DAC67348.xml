@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3009DF90-4444-D218-5795-0896DAC67348" name="Contrato_por_mes">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>103AC977-AAAD-4B4B-EDAF-B59D70591A3C</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Valor_por_mes" id="DC3207F5-24E9-C527-1C7C-202A49785FCE">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>255A524C-6D57-A474-A253-4E9499B78BFE</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contrato_piloto_rut" id="FD2354B5-13F9-E84D-65CC-5BB82C1407D8">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>DF4B260E-A5CE-07D9-7866-A95C29F65EFD</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66355CEA-CE4C-386B-3729-E6FD937E6325" referredColumn="962A70F3-9721-99CD-FAF6-BF2D71064D73"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C918FCA9-AC6A-41AE-CEB4-68DD0B6D15D1" name="Contrato_por_mes_Contrato_piloto_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>9715B961-2A43-3EB7-16E8-797139C2A3E8</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD2354B5-13F9-E84D-65CC-5BB82C1407D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

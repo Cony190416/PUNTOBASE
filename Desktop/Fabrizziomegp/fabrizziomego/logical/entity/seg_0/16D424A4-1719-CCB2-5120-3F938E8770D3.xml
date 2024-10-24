@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="16D424A4-1719-CCB2-5120-3F938E8770D3" name="Linea aeria">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:58:14 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre_aerolinea" id="BAA0F7A9-C62A-DB8E-5A7C-D02338D7274E">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 13:58:49 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vuelos_realizados" id="79CDF6E2-969B-2EF7-7B45-3840B88F85EE">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:03:30 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="D9369462-2736-0CF5-E18C-5A80C20A29D9">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:05:39 UTC</createdTime>
+<generatorID>140EF3B8-9EE1-EF99-1C8C-39CEB9E56863</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<referedAttribute>954FAA4C-76F9-4112-581C-79CCD2F5B5F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="n°_avion" id="276E0674-DB26-6945-AD0E-87C51D61B456">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:08:26 UTC</createdTime>
+<generatorID>95439CA3-601F-1ED2-4D3E-D5A248CDB43E</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="true"/>
+</engineerTo>
+<referedAttribute>CCA8F57E-3FD6-5FD2-774E-F0ADD86F28EE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F204F749-C4EF-8BBD-93F1-93F73773DE1F" name="Linea aeria PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:03:27 UTC</createdTime>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="16D8C4B8-0778-3B92-C5BD-E6EFDA50D410" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BAA0F7A9-C62A-DB8E-5A7C-D02338D7274E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

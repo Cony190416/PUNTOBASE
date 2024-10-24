@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="419FB243-71BD-3BFF-EA6F-68CF09B0EB77" containerWithKeyObject="A3A32DFA-5606-B8BC-7157-D09094E2ABA8" localFKIndex="B875A114-A5C3-6D6A-8077-EDA28E6B83D3" name="Linea_aeria_Contrato_piloto_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:32:10 UTC</createdTime>
+<generatorID>140EF3B8-9EE1-EF99-1C8C-39CEB9E56863</generatorID>
+<ownerDesignName>fabrizziomego</ownerDesignName>
+<referredTableLongName>Contrato_piloto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B75922BB-6915-9133-E1C0-B09B29F9665E</referredTableID>
+<keyObject>B3DE5057-669A-8528-31EF-81BC3A889D98</keyObject>
+<referredKeyID>B3DE5057-669A-8528-31EF-81BC3A889D98</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
