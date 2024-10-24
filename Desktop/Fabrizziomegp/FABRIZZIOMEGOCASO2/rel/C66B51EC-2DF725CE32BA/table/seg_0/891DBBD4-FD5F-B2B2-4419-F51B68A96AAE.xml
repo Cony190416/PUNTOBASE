@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="891DBBD4-FD5F-B2B2-4419-F51B68A96AAE" name="Jugador">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>3D296CD2-E14C-049F-40B7-131C0A7F659C</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_jugador" id="AAABA987-CFD0-D2DC-4252-1269D0079BCE">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>A7E46E44-7C75-D265-0BB7-1E4D85178000</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,9,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n°_socio_jugador" id="9DDEC836-78AC-F039-7F55-9170BE697090">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>8504351F-E883-CF49-04E9-0D7025A59F5B</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_jugador" id="4E90E68B-B99A-7F6E-87A8-AA8E3BFEC3A9">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>40F9E248-B7D6-846B-D00C-C6A4D1F7CA00</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_jugador" id="6636B65F-248E-10FC-2119-CCAD08A76C21">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>2640FF30-0795-12F1-E5F9-96A6B33632F3</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telegono_jugador" id="61842AE1-9565-483D-B811-635A6D65D8A5">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>8DFF2901-144F-6DAA-A170-9DECD0235A49</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,9,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Campeonatos_participados_j" id="8B29A9F8-600F-75C4-4539-7E853A11BEC1">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>B57BFF74-C641-561B-19A2-18D70E98C7C4</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nacionalidad_jugador" id="A3A0FC1B-D3B0-8B51-47AC-EDAA6B782E4E">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>254CF32E-2228-8E31-3029-DDD563634005</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo_escala_jugador" id="2C275C2D-A72D-D6E9-1467-B718793102ED">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>40202B43-D922-34C3-E3A7-6EE1E9C60713</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Escala_jugador_cod_escla_jugador" id="8149DE99-C09E-DBB8-E886-A7D968276134">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>0AD4DD97-EEE2-B03D-0EC0-FB7158277404</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F56E41A-BB05-7B66-9854-32DC2A90D7BD" referredColumn="1FC44790-1C47-87FD-A1B0-326C5D28F1A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E418BAF-6287-3ECC-FAED-26640184CFD4" name="Jugador_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>1DB033CE-B2BE-0983-225B-76A08B1343A3</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAABA987-CFD0-D2DC-4252-1269D0079BCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DE6912A-02BA-FE65-C16B-E5311E472452" name="Jugador_Escala_jugador_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>493B7437-9492-5884-325C-51E70657472C</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8149DE99-C09E-DBB8-E886-A7D968276134"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FDA4D03-F3A3-3DF2-994C-F35E88F70460" containerWithKeyObject="D4509A89-A444-B61F-063F-21A6735E8888" localFKIndex="A32422FD-1646-C53C-7CCE-8FA8B250B99B" name="Patida_Abrito_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>2196F295-7F55-23DB-4BD2-E9E2357EA116</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<referredTableLongName>Abrito</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A199B0C2-8DF3-3E10-A420-870BFAD15428</referredTableID>
+<keyObject>EDF9F0F4-D135-EB14-DD1F-796731001928</keyObject>
+<referredKeyID>EDF9F0F4-D135-EB14-DD1F-796731001928</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>rut_arbitro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

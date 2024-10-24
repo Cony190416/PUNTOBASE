@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11168FAE-90D4-21D4-2482-6C0F25E5A8CA" name="Escala jugador">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:48:31 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_escla_jugador" id="EEEF242E-CEF9-AC0E-2699-E872A23D412D">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:48:56 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion_escala_jugador" id="AA6A7A32-9B1C-C576-3935-95FA329E463F">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:49:19 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="57D91482-282A-D135-73A8-7ACB1947E7D7" name="Escala jugador PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:49:18 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EEEF242E-CEF9-AC0E-2699-E872A23D412D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

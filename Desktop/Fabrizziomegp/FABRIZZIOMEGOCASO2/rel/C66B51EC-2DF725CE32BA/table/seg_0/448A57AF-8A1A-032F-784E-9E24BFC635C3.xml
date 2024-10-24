@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="448A57AF-8A1A-032F-784E-9E24BFC635C3" name="Relation_3">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Patida_codigo_partida" id="A9522F62-EB7C-DC2C-E1BE-8C48D57B7D14">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E784D513-0806-2AAE-9F5F-E9AFB3EBB7CA" referredColumn="AC9FA1FB-334C-F820-EED1-644B6729E03A"/>
+</associations>
+</Column>
+<Column name="Salida_partida_Codigo_sala" id="B9C3A809-0DE6-B1F6-1D37-89936749A697">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10F26015-20A6-3045-3076-EEF81D5D2AC6" referredColumn="8298EC01-0E90-1AEC-1DF4-DE5CA907194B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBF1D810-18DC-06EB-7294-74687F0F84B2" name="Relation_3_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9522F62-EB7C-DC2C-E1BE-8C48D57B7D14"/>
+<colUsage columnID="B9C3A809-0DE6-B1F6-1D37-89936749A697"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9ABED19-D867-F9CB-A375-FD9281FFF450" name="Relation_3_Patida_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>7B01E4B1-2C0F-E694-11EC-DF018AA7A916</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9522F62-EB7C-DC2C-E1BE-8C48D57B7D14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8553AE5-3E1D-F854-C2A6-B09FA3EB0E73" name="Relation_3_Salida_partida_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>7B01E4B1-2C0F-E694-11EC-DF018AA7A916</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9C3A809-0DE6-B1F6-1D37-89936749A697"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

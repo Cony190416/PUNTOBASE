@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D296CD2-E14C-049F-40B7-131C0A7F659C" name="Jugador">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:38:57 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut_jugador" id="A7E46E44-7C75-D265-0BB7-1E4D85178000">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:39:20 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,9,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="n°_socio_jugador" id="8504351F-E883-CF49-04E9-0D7025A59F5B">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:39:47 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_jugador" id="40F9E248-B7D6-846B-D00C-C6A4D1F7CA00">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:40:14 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion_jugador" id="2640FF30-0795-12F1-E5F9-96A6B33632F3">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:40:32 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telegono_jugador" id="8DFF2901-144F-6DAA-A170-9DECD0235A49">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:40:54 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,9,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Campeonatos_participados_j" id="B57BFF74-C641-561B-19A2-18D70E98C7C4">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:41:16 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nacionalidad_jugador" id="254CF32E-2228-8E31-3029-DDD563634005">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:41:50 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo_escala_jugador" id="40202B43-D922-34C3-E3A7-6EE1E9C60713">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:42:14 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_escla_jugador" id="0AD4DD97-EEE2-B03D-0EC0-FB7158277404">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:03:11 UTC</createdTime>
+<generatorID>493B7437-9492-5884-325C-51E70657472C</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EEEF242E-CEF9-AC0E-2699-E872A23D412D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1DB033CE-B2BE-0983-225B-76A08B1343A3" name="Jugador PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:39:39 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7E46E44-7C75-D265-0BB7-1E4D85178000</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

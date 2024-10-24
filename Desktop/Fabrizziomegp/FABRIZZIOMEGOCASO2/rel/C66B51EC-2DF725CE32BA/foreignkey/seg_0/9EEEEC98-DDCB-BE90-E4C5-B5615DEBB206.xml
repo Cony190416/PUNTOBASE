@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9EEEEC98-DDCB-BE90-E4C5-B5615DEBB206" containerWithKeyObject="7CF6BBD2-96F5-B2CB-8BB7-E0050D1183BF" localFKIndex="277EBFB9-CF39-9716-8FFA-4DAB45534B03" name="Relation_6_Patida_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>67E68B9E-15FA-6FCF-2CA8-666BEFEE7D43</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<referredTableLongName>Patida</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D4509A89-A444-B61F-063F-21A6735E8888</referredTableID>
+<keyObject>87B409C1-1274-A2D8-57E1-0CF4BC1A6AD2</keyObject>
+<referredKeyID>87B409C1-1274-A2D8-57E1-0CF4BC1A6AD2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_partida</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

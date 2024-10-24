@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="493B7437-9492-5884-325C-51E70657472C">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:02:55 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<sourcePk>1DB033CE-B2BE-0983-225B-76A08B1343A3</sourcePk>
+<targetPk>57D91482-282A-D135-73A8-7ACB1947E7D7</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3D296CD2-E14C-049F-40B7-131C0A7F659C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>11168FAE-90D4-21D4-2482-6C0F25E5A8CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

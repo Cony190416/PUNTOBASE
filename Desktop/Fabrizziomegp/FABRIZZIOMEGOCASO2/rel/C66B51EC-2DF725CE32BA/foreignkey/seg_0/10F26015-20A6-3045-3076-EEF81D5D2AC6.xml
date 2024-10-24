@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="10F26015-20A6-3045-3076-EEF81D5D2AC6" containerWithKeyObject="448A57AF-8A1A-032F-784E-9E24BFC635C3" localFKIndex="F8553AE5-3E1D-F854-C2A6-B09FA3EB0E73" name="Relation_3_Salida_partida_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>7B01E4B1-2C0F-E694-11EC-DF018AA7A916</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<referredTableLongName>Salida_partida</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>17F938A5-0166-99AB-604A-1904293544B9</referredTableID>
+<keyObject>D31B23AA-D81F-909D-450B-8FBA5D6FEA30</keyObject>
+<referredKeyID>D31B23AA-D81F-909D-450B-8FBA5D6FEA30</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Codigo_sala</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F1AD77C-CE3C-5273-94D8-FB27BDE4D9B1" name="Salida_partida">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:57:47 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codigo_sala" id="D5B5272B-3F4C-184A-3230-EE74B9F31EFB">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:57:57 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_hotel_sala" id="5C6A0454-2E6B-152D-18E1-F43A87DE4914">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:58:21 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_entradas_vendidas" id="A725C31C-B255-FF90-3328-7C81DAF82CBD">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:58:45 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,5,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacidad_sala" id="573C6C00-37AC-BEEA-0B3E-C1E2FD0EF03D">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:59:06 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,5,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="medios_videos_sala" id="8BFC1635-72CD-4E5A-0539-42EF694667DA">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:59:26 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="medios_radio_sala" id="B2AA8ACC-1104-9B1B-FBB4-A76CD97DCD4A">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:59:45 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="medios_television_sala" id="C52F9CBC-4732-BB96-8028-E97C34AA91A6">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:59:59 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="medios_otro_sala" id="949B09E9-B978-8DBB-7CBA-A21EBF9E9BB9">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:00:30 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo_hotel" id="A4B94144-BD4E-8C9A-8453-7D69C2592F53">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:05:31 UTC</createdTime>
+<generatorID>57907C9D-BC82-C8F8-207E-1DCFD3507D5B</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1687A204-174E-59DA-04A5-60079D51F827</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACC0E3F1-D19E-D244-D8C7-27011BE02A7D" name="Salida_partida PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 14:58:20 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<engineerTo>
+<item key="C66B51EC-DFA6-E1C1-EB38-2DF725CE32BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D5B5272B-3F4C-184A-3230-EE74B9F31EFB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D995C4F-190E-001E-7D7D-D63B9EDC13A0" name="Relation_2">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Jugador_rut_jugador" id="27501CBA-2216-608D-87E2-527559DEED0C">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEAC42CF-8E57-FCAD-398B-232C2DACBF38" referredColumn="AAABA987-CFD0-D2DC-4252-1269D0079BCE"/>
+</associations>
+</Column>
+<Column name="Patida_codigo_partida" id="859E1ACA-88AE-2AC2-FE79-4B735E15C07D">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F6A1650-1373-1E6F-74E8-DF24626D2370" referredColumn="AC9FA1FB-334C-F820-EED1-644B6729E03A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5808E27F-A5C9-E9B5-6AB0-9723CF25EFAF" name="Relation_2_PK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27501CBA-2216-608D-87E2-527559DEED0C"/>
+<colUsage columnID="859E1ACA-88AE-2AC2-FE79-4B735E15C07D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8FE4F4D-EF81-45C6-6D12-6C595CE3704C" name="Relation_2_Jugador_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>888C8437-69EC-A174-3C93-C77489819033</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27501CBA-2216-608D-87E2-527559DEED0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BFBC423-6C9E-09C1-CB3D-1FB99D7E56AB" name="Relation_2_Patida_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>888C8437-69EC-A174-3C93-C77489819033</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="859E1ACA-88AE-2AC2-FE79-4B735E15C07D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0B1AF06-E106-D7C3-73C1-FF99BE425CC5" containerWithKeyObject="17F938A5-0166-99AB-604A-1904293544B9" localFKIndex="DE7E2406-EFEE-F4FA-1FDF-7C8D9D671153" name="Salida_partida_Hotel_FK">
+<createdBy>Duoc Alameda</createdBy>
+<createdTime>2024-10-24 15:06:06 UTC</createdTime>
+<generatorID>57907C9D-BC82-C8F8-207E-1DCFD3507D5B</generatorID>
+<ownerDesignName>FABRIZZIOMEGOCASO2</ownerDesignName>
+<referredTableLongName>Hotel</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2C1D8DE7-16A0-EF20-DF2D-E139B03AE235</referredTableID>
+<keyObject>0ED24D0D-CEF2-D9BA-57EB-DD22466BCC1E</keyObject>
+<referredKeyID>0ED24D0D-CEF2-D9BA-57EB-DD22466BCC1E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Codigo_hotel</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
